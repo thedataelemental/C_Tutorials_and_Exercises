@@ -1,4 +1,7 @@
 /* 1-12_word_separator.c */
+/* K&R Exercise */
+/* copies input to output, one word per line. */
+/* 10/18/2022 */
 
 #include <stdio.h>
 
