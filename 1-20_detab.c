@@ -3,7 +3,7 @@
 // Replace each tab in text input with appropriate number of spaces
 // to reach each tab stop.
 // This effect is, of course, undetectable.
-// Solved 1/1/2022
+// Solved 11/1/2022
 // By Jackie P
 
 #include <stdio.h>
