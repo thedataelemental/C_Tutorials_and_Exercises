@@ -37,7 +37,7 @@ int main(void)
 		}
 		   
 		// Track position within current tab stop
-		if (tab_stop_place >= 8)
+		if (tab_stop_place >= TAB_STOP)
 		{
 			tab_stop_place = 0;
 		}
@@ -62,7 +62,7 @@ int main(void)
 			}
 
 			// Insert first tab
-			if (space_count >= 8)
+			if (space_count >= TAB_STOP)
 			{	
 				output_string[i] = '\t';
 				space_count -= (TAB_STOP - tab_stop_place);
@@ -71,10 +71,10 @@ int main(void)
 			}
 			
 			// Add additional tabs as required
-			while (space_count >= 8)
+			while (space_count >= TAB_STOP)
 			{			
 				output_string[i] = '\t';
-				space_count -= 8;
+				space_count -= TAB_STOP;
 				i++;	
 			}
 			
