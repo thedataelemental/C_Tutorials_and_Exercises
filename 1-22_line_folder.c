@@ -1,6 +1,8 @@
 // 1-22_line_folder.c
 // Returns text input with word wrapping on long lines
 // Exercise from K&R C
+// Solved 11/4/2022
+// By Jackie P
 
 #include <stdio.h>
 #include <stdbool.h>
