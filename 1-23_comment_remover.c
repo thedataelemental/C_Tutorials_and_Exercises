@@ -1,6 +1,8 @@
 // 1-23_comment_remover.c
 // Takes a C program as text input and removes all comments.
 // Exercise from K&R C.
+// Solved 11/5/2022
+// By Jackie P
 
 #include <stdio.h>
 
